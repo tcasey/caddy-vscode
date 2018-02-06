@@ -16,7 +16,7 @@
     // button
     "button.background": "#0088ff",
     "button.foreground": "#fff",
-    "button.hoverBackground": "#ff9d00",
+    "button.hoverBackground": "#ff9900",
     // contrast
     "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
@@ -42,7 +42,7 @@
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
     // Currently found item
-    "editor.findMatchBackground": "#FF7200",
+    "editor.findMatchBackground": "#ff9900",
     // Other Found Items int the document
     "editor.findMatchHighlightBackground": "#CAD40F66",
     // WTF is this one for? I don't know
@@ -118,7 +118,7 @@
     // extensionButton
     "extensionButton.prominentBackground": "#0088ff",
     "extensionButton.prominentForeground": "#fff",
-    "extensionButton.prominentHoverBackground": "#ff9d00",
+    "extensionButton.prominentHoverBackground": "#ff9900",
     "focusBorder": "#0d3a58",
     "foreground": "#aaa",
     // input
@@ -156,13 +156,13 @@
     "notification.background": "#ffc600",
     "notification.buttonBackground": "#0088ff",
     "notification.buttonForeground": "#fff",
-    "notification.buttonHoverBackground": "#ff9d00",
+    "notification.buttonHoverBackground": "#ff9900",
     "notification.errorBackground": "#DF8C8C",
     "notification.errorForeground": "#fff",
     "notification.foreground": "#000",
     "notification.infoBackground": "#0088ff",
     "notification.infoForeground": "#fff",
-    "notification.warningBackground": "#ff9d00",
+    "notification.warningBackground": "#ff9900",
     "notification.warningForeground": "#000",
     // panel
     "panel.background": "#122738",
@@ -245,6 +245,12 @@
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#ffc600",
     "terminalCursor.foreground": "#ffc600",
+     // Git status colors in File Explorer
+    "gitDecoration.modifiedResourceForeground": "#ffc600",
+    "gitDecoration.deletedResourceForeground": "#ff628c",
+    "gitDecoration.untrackedResourceForeground": "#3ad900",
+    "gitDecoration.ignoredResourceForeground": "#ff628c",
+    "gitDecoration.conflictingResourceForeground": "#FF7200",
     // textBlockQuote
     "textBlockQuote.background": "#193549",
     "textBlockQuote.border": "#0088ff",
@@ -285,6 +291,7 @@
       "name": "Entity",
       "scope": "entity",
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#9A93E1" // requires, methods, etc.
       }
     },
@@ -299,7 +306,6 @@
       "name": "Keyword",
       "scope": "keyword, storage.type.class.js",
       "settings": {
-        // "foreground": "#F2C38F" // if, module, new, throw, etc.
         "foreground": "#ffc600" // if, module, new, throw, etc.
       }
     },
@@ -308,7 +314,7 @@
       "scope": "meta",
       "settings": {
         "foreground": "#9effff" // ??? not sure
-        // "foreground": "#ff9d00"
+        // "foreground": "#ff9900"
       }
     },
     {
@@ -330,20 +336,21 @@
       "name": "Punctuation Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ff9900"
       }
     },
     {
       "name": "Punctuation Template Expression",
       "scope": "punctuation.definition.template-expression",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ff9900"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#61B8FF" // var, let, const, etc.
       }
     },
@@ -351,7 +358,7 @@
       "name": "Storage Type Arrow Function",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ff9900"
       }
     },
     {
@@ -386,7 +393,7 @@
       "name": "Support Function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ff9900"
       }
     },
     {
@@ -476,7 +483,7 @@
       "scope": "text.html.basic entity.name",
       "settings": {
         // "foreground": "#9effff"
-        "foreground": "#ff9d00" // HTML main name stuff
+        "foreground": "#ff9900" // HTML main name stuff
       }
     },
     {
@@ -484,7 +491,7 @@
       "scope": "meta.toc-list.id.html",
       "settings": {
         "foreground": "#7FC1CA"
-        // "foreground": "#ff9d00"
+        // "foreground": "#ff9900"
       }
     },
     {
@@ -514,7 +521,7 @@
       "scope": "source.ini entity",
       "settings": {
         "foreground": "#7FC1CA" // ???
-        // "foreground": "#ff9d00"
+        // "foreground": "#ff9900"
       }
     },
     {
@@ -535,7 +542,7 @@
       "name": "[INI] - Punctuation Separator",
       "scope": "source.ini punctuation.separator",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ff9900"
       }
     },
     {
@@ -550,7 +557,7 @@
       "scope": "variable.language, entity.name.type.class.js",
       "settings": {
         "foreground": "#9effff" // this
-        // "foreground": "#ff9d00"
+        // "foreground": "#ff9900"
       }
     },
     {
