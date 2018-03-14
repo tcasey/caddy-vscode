@@ -4,7 +4,6 @@
 
 ![Preview](https://raw.githubusercontent.com/tcasey/caddy-vscode/master/assets/editor.png)
 
-
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
@@ -30,7 +29,6 @@
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
-    // this isn't really underline-thin but we hack it to be a thicker cursor
     "editor.cursorStyle": "underline-thin",
     "editor.cursorBlinking": "solid",
     "prettier.eslintIntegration": true,
@@ -42,13 +40,9 @@ Some things in VS code can't be controlled by settings, but you can install [thi
 
 Once done, open your command palette and select enable **custom CSS and JS**
 
-Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
+Finally reload your editor and the Custom CSS should be taking.
 
-## I don't like something
+## Don't Like It?
+Make your own theme. I consolidated some of the things I've learned in making this theme and posted about it [here](https://www.tcasey.me/vs-code-theme).
 
-First, this theme is new so if something is funky, please open an issue.
-
-These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
-
-https://code.visualstudio.com/docs/getstarted/theme-color-reference
-
+p.s. This theme is inspired by the Cobalt2 Theme. The only real differences are some variations with `tokenColors` AKA syntax highlighting.
