@@ -1,42 +1,37 @@
 {
-    "name": "caddy-vscode",
-    "version": "1.8.5",
-    "displayName": "Caddy Theme Official",
-    "description": "Caddy Theme by Trevor Casey",
-    "icon": "assets/caddy.png",
-    "publisher": "tcasey",
-    "scripts": {
-        "start": "nodemon --exec vsce package"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/tcasey/caddy-vscode"
-    },
-    "galleryBanner": {
-        "color": "#193549",
-        "theme": "dark"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "VSCode",
-        "Themes"
-    ],
-    "engines": {
-        "vscode": "^1.15.0"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Caddy",
-                "uiTheme": "vs-dark",
-                "path": "./theme/caddy.json"
-            }
-        ]
-    },
-    "bugs": {
-        "url": "https://github.com/tcasey/caddy-vscode/issues"
-    },
-    "homepage": "https://github.com/tcasey/caddy-vscode#readme"
+  "name": "caddy-vscode",
+  "version": "1.8.6",
+  "displayName": "Caddy Theme Official",
+  "description": "Caddy Theme by Trevor Casey",
+  "icon": "assets/caddy.png",
+  "publisher": "tcasey",
+  "scripts": {
+    "start": "nodemon --exec vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcasey/caddy-vscode"
+  },
+  "galleryBanner": {
+    "color": "#193549",
+    "theme": "dark"
+  },
+  "categories": ["Themes"],
+  "keywords": ["VSCode", "Themes"],
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Caddy",
+        "uiTheme": "vs-dark",
+        "path": "./theme/caddy.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/tcasey/caddy-vscode/issues"
+  },
+  "homepage": "https://github.com/tcasey/caddy-vscode#readme"
 }

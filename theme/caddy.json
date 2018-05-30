@@ -245,7 +245,7 @@
     "terminal.foreground": "#ffffff",
     "terminalCursor.background": "#edac01",
     "terminalCursor.foreground": "#edac01",
-     // Git status colors in File Explorer
+    // Git status colors in File Explorer
     "gitDecoration.modifiedResourceForeground": "#edac01",
     "gitDecoration.deletedResourceForeground": "#ff628c",
     "gitDecoration.untrackedResourceForeground": "#3ad900",
@@ -271,10 +271,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#0780ff"
@@ -368,23 +365,16 @@
     },
     {
       "name": "String",
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#899BA6"
       }
     },
     {
       "name": "String Template",
-      "scope": [
-        "string.template",
-        "punctuation.definition.string.template"
-      ],
+      "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#9effff"
-
       }
     },
     {
@@ -402,8 +392,8 @@
       }
     },
     {
-      "name": "[JSX] Tag",
-      "scope": "JSXEndTagStart",
+      "name": "[JSX] Tag Ending",
+      "scope": "JSXEndTagStart, punctuation.definition.tag.end.js.jsx",
       "settings": {
         "foreground": "#FF9505" //"#61B8FF" // exports, Object, Math, etc.
       }
@@ -439,10 +429,7 @@
     },
     {
       "name": "[CSS] - Entity",
-      "scope": [
-        "source.css entity",
-        "source.stylus entity"
-      ],
+      "scope": ["source.css entity", "source.stylus entity"],
       "settings": {
         "foreground": "#FFB454"
       }
@@ -463,10 +450,7 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": [
-        "source.css support",
-        "source.stylus support"
-      ],
+      "scope": ["source.css support", "source.stylus support"],
       "settings": {
         "foreground": "#7FC1CA"
       }
@@ -497,10 +481,7 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": [
-        "source.css variable",
-        "source.stylus variable"
-      ],
+      "scope": ["source.css variable", "source.stylus variable"],
       "settings": {
         "foreground": "#9effff"
       }
@@ -535,8 +516,10 @@
       }
     },
     {
-      "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+      "name":
+        "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+      "scope":
+        "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
         "foreground": "#9effff"
       }
@@ -716,20 +699,14 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": [
-        "fenced_code.block.language",
-        "markup.inline.raw.markdown"
-      ],
+      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
       "settings": {
         "foreground": "#9effff"
       }
